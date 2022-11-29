@@ -1,1 +1,1 @@
-# airlines-frontend
+# Frontend for the Airlines Project from Bootcamp using React
