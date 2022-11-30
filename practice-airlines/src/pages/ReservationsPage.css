@@ -1,3 +1,59 @@
 .reservations h1 {
     text-align: center;
 }
+
+.reservationsContainer {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.reservationCard {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    flex-direction: row;
+}
+
+.reservations .column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .reservations .column {
+        width: 100%;
+    }
+}
+
+.reservationWrapper {
+    background-color: white;
+    border-radius: 50px;
+    width: 100%;
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+    padding: 20px;
+    display: flex;
+}
+
+.flightDetails {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 21%;
+    height: 40px;
+}
+
+.leftContent {
+    text-align: left;
+    width: 45%;
+}
+
+.rightContent {
+    text-align: left;
+    width: 55%;
+    font-weight: bold;
+}
