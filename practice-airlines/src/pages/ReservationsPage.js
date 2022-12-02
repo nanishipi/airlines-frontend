@@ -3,8 +3,9 @@ import React from "react";
 // STYLES
 import "../pages/ReservationsPage.css";
 
-export default function Revervations() {
+export default function Revervations(props) {
   return (
+
     <div className="reservations">
       <h1>Reservations</h1>
       <div className="reservationsContainer">
@@ -13,7 +14,7 @@ export default function Revervations() {
             <h2>Flight Reservation</h2>
             <div className="flightDetails">
               <p className="leftContent">Flight Number:</p>
-              <p className="rightContent"> TP0039</p>
+              <p className="rightContent"> {props.flightNumber}</p>
             </div>
             <div className="flightDetails">
               <p className="leftContent">From/To:</p>
